@@ -34,7 +34,7 @@ export const projects: Project[] = [
     tools: ['SolidWorks', 'Mechanism Design', 'Motion', 'Product Design', 'Automation'],
     modelKey: 'urinal-assembly',
     thumbnail: 'https://res.cloudinary.com/dkyvctkhf/image/upload/v1790054325/otax5bovisvckeyjfszx.png',
-    documentationLink: 'https://example.com/automated-urinal-cleaning-system',
+    documentationLink: 'https://drive.google.com/file/d/1rp1FMnhTvoETQcmQHNayxEV71WiRgncb/view',
   }),
   createProject({
     id: 'eas-tag-internal-mechanism',
@@ -44,7 +44,7 @@ export const projects: Project[] = [
     tools: ['SolidWorks', 'Mechanism Design', 'Electromechanical', 'Prototyping', 'Automation'],
     modelKey: 'eas-tag-internal-mechanism',
     thumbnail: 'https://res.cloudinary.com/dkyvctkhf/image/upload/v1790671941/a6vtl4km71xh6idr8shb.png',
-    documentationLink: 'https://example.com/eas-internal-mechanism-redesign',
+    documentationLink: 'https://drive.google.com/file/d/1GQG_MJbCBpvyAOWaKdri6X4OQD118qaT/view',
   }),
 ];
 
