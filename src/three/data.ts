@@ -16,17 +16,17 @@ export function createProject(project: Project): Project {
 }
 
 export const projects: Project[] = [
-  createProject({
-    id: 'drone-scout',
-    title: 'Tethered Paint-Spraying Drone — Concept Development',
-    category: 'Drones',
-    description: '3D CAD concept for a tethered aerial painting system with ground-based paint delivery. Designed around a lightweight no-payload/no-battery architecture, integrating mechanical structure, fluid delivery, spray positioning, and aerodynamic considerations.',
-    tools: ['SolidWorks', 'Mechanical Design', 'Concept Development', 'Fluid Systems', 'Aerodynamics'],
-    modelKey: 'quadcopter',
-    thumbnail: 'https://res.cloudinary.com/dkyvctkhf/image/upload/v1790054568/pdxiymq1s35pw3nih2gh.png',
-    documentationLink: 'https://example.com/tethered-paint-spraying-drone',
+    createProject({
+    id: 'eas-tag-internal-mechanism',
+    title: 'EAS Internal Mechanism Redesign — Automated Unlocking',
+    category: 'Product CAD Design',
+    description: 'Redesigned the internal mechanical mechanism of an EAS security tag for automated unlocking after payment verification. Combined mechanical motion, electromagnetic actuation, embedded control, and 3D-printed prototyping to develop and iterate the mechanism.',
+    tools: ['SolidWorks', 'Mechanism Design', 'Electromechanical', 'Prototyping', 'Automation'],
+    modelKey: 'eas-tag-internal-mechanism',
+    thumbnail: 'https://res.cloudinary.com/dkyvctkhf/image/upload/v1790671941/a6vtl4km71xh6idr8shb.png',
+    documentationLink: 'https://drive.google.com/file/d/1GQG_MJbCBpvyAOWaKdri6X4OQD118qaT/view',
   }),
-  createProject({
+    createProject({
     id: 'urinal-assembly',
     title: 'Automated Urinal Cleaning System — Mechanism Design',
     category: 'Product CAD Design',
@@ -37,15 +37,15 @@ export const projects: Project[] = [
     documentationLink: 'https://drive.google.com/file/d/1rp1FMnhTvoETQcmQHNayxEV71WiRgncb/view',
   }),
   createProject({
-    id: 'eas-tag-internal-mechanism',
-    title: 'EAS Internal Mechanism Redesign — Automated Unlocking',
-    category: 'Product CAD Design',
-    description: 'Redesigned the internal mechanical mechanism of an EAS security tag for automated unlocking after payment verification. Combined mechanical motion, electromagnetic actuation, embedded control, and 3D-printed prototyping to develop and iterate the mechanism.',
-    tools: ['SolidWorks', 'Mechanism Design', 'Electromechanical', 'Prototyping', 'Automation'],
-    modelKey: 'eas-tag-internal-mechanism',
-    thumbnail: 'https://res.cloudinary.com/dkyvctkhf/image/upload/v1790671941/a6vtl4km71xh6idr8shb.png',
-    documentationLink: 'https://drive.google.com/file/d/1GQG_MJbCBpvyAOWaKdri6X4OQD118qaT/view',
-  }),
+    id: 'drone-scout',
+    title: 'Tethered Paint-Spraying Drone — Concept Development',
+    category: 'Drones',
+    description: '3D CAD concept for a tethered aerial painting system with ground-based paint delivery. Designed around a lightweight no-payload/no-battery architecture, integrating mechanical structure, fluid delivery, spray positioning, and aerodynamic considerations.',
+    tools: ['SolidWorks', 'Mechanical Design', 'Concept Development', 'Fluid Systems', 'Aerodynamics'],
+    modelKey: 'quadcopter',
+    thumbnail: 'https://res.cloudinary.com/dkyvctkhf/image/upload/v1790054568/pdxiymq1s35pw3nih2gh.png',
+    documentationLink: 'https://example.com/tethered-paint-spraying-drone',
+  })
 ];
 
 export type Certificate = {
